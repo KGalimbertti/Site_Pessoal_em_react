@@ -1,0 +1,94 @@
+.projects {
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  scroll-margin-top: 80px;
+}
+
+.project__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project__title {
+  width: 435px;
+  height: 55px;
+  font-size: 61px;
+  line-height: 100%;
+  font-weight: 600;
+  margin: 30px 136px;
+}
+
+.project__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 56px;
+  overflow-x: auto;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.project__card {
+  border: 3px solid #3c3c3c;
+  border-radius: 6px;
+  width: 350px;
+  height: 403px;
+  padding: 20px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.project__card-title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #b6b6b6;
+  margin: unset;
+}
+.project__card-description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #ffffff;
+  text-align: justify;
+}
+.project__button {
+  background-color: #b6b6b6;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  padding: 14px;
+  border-radius: 8px;
+}
+.project__icon {
+  width: 29px;
+  height: 29px;
+}
+.project__button-description {
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 11px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1240px) {
+  .project__title {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .project__title {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+}

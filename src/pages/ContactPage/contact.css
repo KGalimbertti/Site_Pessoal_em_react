@@ -1,0 +1,156 @@
+.contact {
+  background-color: #2343e3;
+  display: flex;
+  scroll-margin-top: 80px;
+}
+
+.contacts__photo {
+  background-image: url("../../assets/images/image.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 40vw;
+  height: 100%;
+}
+
+.contact__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact__description {
+  width: 60vw;
+  max-width: 700px;
+}
+
+.contact__title {
+  font-size: 40px;
+  padding-bottom: 24px;
+  text-decoration: underline;
+}
+
+.contact__text {
+  font-size: 25px;
+  padding-bottom: 25px;
+  line-height: 2.4rem;
+  text-align: justify;
+}
+
+.contact__address {
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.contact__email-image {
+  width: 32px;
+  height: 22px;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__email {
+  display: flex;
+  padding-bottom: 12px;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__phone-image {
+  width: 28px;
+  height: 28px;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__phone {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__text-icon {
+  padding-left: 14px;
+  font-size: 25px;
+  align-items: center;
+}
+
+.contact__midias {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+
+  a {
+    background-color: #3756f3;
+    padding: 12px;
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contacts__photo {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+  }
+
+  .contact__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6rem;
+  }
+
+  .contact__description {
+    font-size: 1.71rem;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .contact__phone {
+    text-align: start;
+  }
+
+  .contact__midias {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .contacts__photo {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+  }
+
+  .contact__title {
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact__description {
+    font-size: 1.5rem;
+  }
+
+  .contact__address {
+    width: 100vw;
+    text-align: center;
+  }
+
+  .contact__midias {
+    align-items: center;
+    justify-content: center;
+  }
+}

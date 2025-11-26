@@ -1,0 +1,20 @@
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: "inter", sans-serif;
+  color: white;
+}
+
+section {
+  height: calc(100vh - 80px);
+}
