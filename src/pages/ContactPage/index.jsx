@@ -7,6 +7,7 @@ import "./contact.css";
 const ContactPage = () => (
   <section className="contact" id="contact">
     <div className="contact__container">
+      <div className="contacts__photo"></div>
       <div className="contact__description">
         <h2 className="contact__title">CONTATO</h2>
         <p className="contact__text">
@@ -36,7 +37,6 @@ const ContactPage = () => (
         </div>
       </div>
     </div>
-    <div className="contacts__photo"></div>
   </section>
 );
 
