@@ -2,7 +2,7 @@ import homeIcon from "../../assets/icons/Download.png";
 import "./home.css";
 
 const HomePage = () => (
-  <section className="home">
+  <section className="home" id="home">
     <div className="home__image"></div>
     <div>
       <div className="home__description">

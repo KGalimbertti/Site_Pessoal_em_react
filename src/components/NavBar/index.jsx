@@ -4,7 +4,10 @@ import "./header.css";
 const NavBar = () => (
   <header className="header">
     <nav>
-      <img className="header__image" src={headerIcon} alt="Casa" />
+      <a href="#home">
+        <img className="header__image" src={headerIcon} alt="Casa" />
+      </a>
+
       <ul className="header__list">
         <li className="header__list-item">
           <a href="#about">Sobre mim</a>
