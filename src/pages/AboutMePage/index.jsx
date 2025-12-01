@@ -1,4 +1,5 @@
 import aboutIcon from "../../assets/icons/linkedin.png";
+import Button from "../../components/Button";
 import "./about.css";
 
 const AboutMePage = () => (
@@ -27,16 +28,7 @@ const AboutMePage = () => (
           contribuir com projetos desafiadores dentro de bons times de
           tecnologia.
         </p>
-        <div className="about__button">
-          <img className="about__icon" src={aboutIcon} alt="" />
-          <a
-            href="https://www.linkedin.com/in/kauegalimbertti/"
-            target="_blank"
-            className="about__button-description"
-          >
-            Confira meu LinkedIn
-          </a>
-        </div>
+        <Button buttonType="linkedin"></Button>
       </div>
     </div>
     <div className="about__photo"></div>

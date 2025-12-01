@@ -1,0 +1,119 @@
+.home__button {
+  background-color: #b6b6b6;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.home__icon {
+  width: 15px;
+  height: 20px;
+}
+
+.home__button-description {
+  font-size: 20px;
+  color: #070808;
+  padding-left: 11px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about__button {
+  background-color: #000000;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.about__icon {
+  width: 20px;
+  height: 12px;
+}
+
+.about__button-description {
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 11px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.skills__button {
+  background-color: #3c3c3c;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.skills__icon {
+  width: 15px;
+  height: 20px;
+}
+
+.skills__button-description {
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 11px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project__button {
+  background-color: #b6b6b6;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  padding: 14px;
+  border-radius: 8px;
+}
+.project__icon {
+  width: 29px;
+  height: 29px;
+}
+.project__button-description {
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 11px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact__email-image {
+  width: 32px;
+  height: 22px;
+  align-items: center;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__phone-image {
+  width: 28px;
+  height: 28px;
+  margin: 0px 0px 12px 0px;
+}
+
+.contact__text-icon {
+  padding-left: 14px;
+  font-size: 25px;
+  align-items: center;
+}
+
+.contact__midias {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+
+  a {
+    background-color: #3756f3;
+    padding: 12px;
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
+  }
+}

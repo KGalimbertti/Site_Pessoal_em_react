@@ -1,4 +1,4 @@
-import skillsIcon from "../../assets/icons/Download.png";
+import Button from "../../components/Button";
 import "./skills.css";
 
 const SkillsPage = () => (
@@ -14,16 +14,7 @@ const SkillsPage = () => (
         <li className="skills__list-item">GitHub</li>
         <li className="skills__list-item">React </li>
       </ul>
-      <div className="skills__button">
-        <img className="skills__icon" src={skillsIcon} alt="" />
-        <a
-          href="./sources/Currículo Kauê.pdf"
-          download="Currículo Kauê.pdf"
-          className="skills__button-description"
-        >
-          Baixar currículo completo
-        </a>
-      </div>
+      <Button buttonType="downloadResume"></Button>
     </div>
   </section>
 );
