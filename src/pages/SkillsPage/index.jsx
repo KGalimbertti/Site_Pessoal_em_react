@@ -13,6 +13,12 @@ const SkillsPage = () => (
         <li className="skills__list-item">Git</li>
         <li className="skills__list-item">GitHub</li>
         <li className="skills__list-item">React </li>
+        <li className="skills__list-item">Node.js </li>
+        <li className="skills__list-item">API_REST </li>
+        <li className="skills__list-item">Autenticação </li>
+        <li className="skills__list-item">Autorização </li>
+        <li className="skills__list-item">Express.js </li>
+        <li className="skills__list-item">MongoDB </li>
       </ul>
       <Button buttonType="downloadResume"></Button>
     </div>

@@ -3,7 +3,7 @@ import "./projects.css";
 
 const ProjectsPage = () => (
   <section className="projects" id="projects">
-    <h2>PROJETOS</h2>
+    <h2 className="project__title">PROJETOS</h2>
     <div class="project__cards">
       <div class="project__card">
         <h3 class="project__card-title">Prompts Manager</h3>

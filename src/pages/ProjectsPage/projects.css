@@ -2,7 +2,8 @@
   background-color: #222222;
   display: flex;
   flex-direction: column;
-  scroll-margin-top: 80px;
+  overflow-x: auto;
+  color: #ffffff;
 }
 
 .project__container {
@@ -14,10 +15,11 @@
 .project__title {
   width: 435px;
   height: 55px;
-  font-size: 61px;
+  font-size: 40px;
   line-height: 100%;
   font-weight: 600;
-  margin: 30px 136px;
+  color: #ffffff;
+  margin-left: 100px;
 }
 
 .project__cards {
@@ -27,7 +29,6 @@
   align-items: center;
   flex-wrap: nowrap;
   gap: 56px;
-  overflow-x: auto;
   padding-bottom: 16px;
   padding-left: 16px;
 }
