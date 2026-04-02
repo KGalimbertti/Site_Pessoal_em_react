@@ -1,32 +1,31 @@
 import headerIcon from "../../assets/icons/home.png";
 import "./header.css";
+import { Link } from "react-router-dom";
 
-const NavBar = () => (
-  <header className="header">
-    <nav>
-      <a href="#home">
-        <img className="header__image" src={headerIcon} alt="Casa" />
-      </a>
-
+const NavBar = () => {
+  return (
+    <nav className="header">
+      <div className="nav-logo">
+        <Link to="/">
+          <img className="header__image" src={headerIcon} />
+        </Link>
+      </div>
       <ul className="header__list">
         <li className="header__list-item">
-          <a href="#about">Sobre mim</a>
+          <Link to="/about">Sobre Mim</Link>
         </li>
         <li className="header__list-item">
-          <a href="#skills">Skills</a>
+          <Link to="/skills">Habilidades</Link>
         </li>
         <li className="header__list-item">
-          <a href="#projects">Projetos</a>
+          <Link to="/projects">Projetos</Link>
         </li>
-
         <li className="header__list-item">
-          <a href="#contact">
-            <b>Contato</b>
-          </a>
+          <Link to="/contact">Contato</Link>
         </li>
       </ul>
     </nav>
-  </header>
-);
+  );
+};
 
 export default NavBar;

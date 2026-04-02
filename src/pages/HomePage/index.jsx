@@ -10,7 +10,7 @@ const HomePage = () => {
       <div>
         <div className="home__description">
           <h1 className="home__title">KAUÊ GALIMBERTTI</h1>
-          <h2 className="home__ocupation">Desenvolvedor Front-end</h2>
+          <h2 className="home__ocupation">Desenvolvedor Full-Stack</h2>
           {resumeDownloadComplete ? (
             <Button buttonType="downloadResume">Baixar currículo</Button>
           ) : null}
